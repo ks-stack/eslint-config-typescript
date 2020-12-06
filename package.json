@@ -1,0 +1,32 @@
+{
+	"name": "@ks-stack/eslint-config-typescript",
+	"version": "0.0.1",
+	"description": "ESLint config for Typescript",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"@react-native-community/eslint-config": "^0.0.3",
+		"@typescript-eslint/eslint-plugin": "^3.5.0",
+		"@typescript-eslint/parser": "^2.3.1",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.3.1",
+		"eslint-config-airbnb": "^18.2.0",
+		"eslint-config-airbnb-typescript": "^8.0.2",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-config-standard": "^14.1.1",
+		"eslint-friendly-formatter": "^4.0.1",
+		"eslint-loader": "^4.0.2",
+		"eslint-plugin-html": "^6.0.2",
+		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-jsx-a11y": "^6.3.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-react": "^7.20.3",
+		"eslint-plugin-react-hooks": "^4.0.4",
+		"eslint-plugin-standard": "^4.0.1"
+	},
+	"peerDependencies": {
+		"eslint": ">=6"
+	}
+}
