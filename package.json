@@ -1,6 +1,9 @@
 {
 	"name": "@ks-stack/eslint-config-typescript",
-	"version": "0.0.1",
+	"version": "0.0.5",
+	"scripts": {
+        "postinstall": "cp -r $INIT_CWD/node_modules/@ks-stack/eslint-config-typescript/sort-comp.js $INIT_CWD/node_modules/eslint-plugin-react/lib/rules/sort-comp.js"
+    },
 	"description": "ESLint config for Typescript",
 	"main": "index.js",
 	"license": "MIT",
